@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "name": "CoR4L pEN1NSUL4",
+    "imagePath": "",
+    "realease": "2015",
+    "artistId": "1"
+  },
+  {
+    "id": "1",
+    "name": "Ber -ingin",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1"
+  },
+  {
+    "id": "1",
+    "name": "Bl4ck Gimballs",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1"
+  },
+  {
+    "id": "2",
+    "name": "Percakapan",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "2"
+  },
+  {
+    "id": "2",
+    "name": "Layar Sentuh",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "2"
+  },
+  {
+    "id": "3",
+    "name": "Six Hours to Midnight",
+    "imagePath": "",
+    "realease": "2009",
+    "artistId": "3"
+  },
+  {
+    "id": "3",
+    "name": "6ixsense",
+    "imagePath": "",
+    "realease": "2013",
+    "artistId": "3"
+  },
+  {
+    "id": "3",
+    "name": "666",
+    "imagePath": "",
+    "realease": "2014",
+    "artistId": "3"
+  },
+  {
+    "id": "4",
+    "name": "La Maritza",
+    "imagePath": "",
+    "realease": "1987",
+    "artistId": "4"
+  },
+  {
+    "id": "4",
+    "name": "Red Right Hands",
+    "imagePath": "",
+    "realease": "1990",
+    "artistId": "4"
+  },
+  {
+    "id": "4",
+    "name": "World Impact",
+    "imagePath": "",
+    "realease": "1995",
+    "artistId": "4"
+  }
+]

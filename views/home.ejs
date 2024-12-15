@@ -1,0 +1,50 @@
+<section class="main-images">
+  <div class="wrapper-images">
+    <div class="image-area img1"></div>
+    <div class="image-area img2"></div>
+    <div class="image-area img3"></div>
+    <div class="image-area img4"></div>
+  </div>
+</section>
+
+<section class="motto">
+  <h2>Fell More With Music</h2>
+</section>
+
+<article class="talents">
+  <h3>Talents</h3>
+  <section class="talents-wrap">
+    <% console.log(artists) %> <% artists.forEach(element => { %>
+    <a href="/talent/<%= element.username %>">
+      <div class="talents-img" data-title="<%=element.name %>">
+        <img src="/images/<%= element.images[0].path %>" alt="<%= element.images[0].nameImage %>" />
+      </div>
+    </a>
+    <% }) %>
+  </section>
+</article>
+
+<section class="releases">
+  <h3>New Releases</h3>
+  <div class="wrapper-releases">
+    <div class="image-area">
+      <img src="/images/image1.png" alt="">
+    </div>
+    <div class="image-area">
+      <img src="/images/image2.png" alt="">
+    </div>
+    <div class="image-area">
+      <img src="/images/image3.png" alt="">
+    </div>
+    <div class="image-area">
+      <img src="/images/image4.png" alt="">
+    </div>
+  </div>
+  
+  <div class="btn-slide">
+    <span class="left-slide">&lt;</span>
+    <span class="right-slide">&gt;</span>
+  </div>
+</section>
+
+<div class="releases-border"></div>

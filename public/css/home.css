@@ -1,0 +1,197 @@
+.main-images {
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrapper-images {
+  display: flex;
+  width: 400vw;
+  height: 100vh;
+}
+
+.wrapper-images .image-area {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: left 0.5s ease-in-out;
+  position: relative;
+  left: 0;
+}
+
+.wrapper-images .image-area.img1 {
+  background-image: url('../images/image1.png');
+}
+
+.wrapper-images .image-area.img2 {
+  background-image: url('../images/image2.png');
+}
+
+.wrapper-images .image-area.img3 {
+  background-image: url('../images/image3.png');
+}
+
+.wrapper-images .image-area.img4 {
+  background-image: url('../images/image4.png');
+}
+
+.motto {
+  padding: 7rem 4rem;
+  margin: 0 10rem;
+  border-bottom: 0.1rem solid var(--black);
+}
+
+.motto h2 {
+  font-weight: 400;
+  font-size: 3.2rem;
+}
+
+.talents {
+  padding: 4rem 0;
+  margin: 0 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-bottom: 0.1rem solid var(--black);
+}
+
+.talents h3 {
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.talents .talents-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 1.2rem;
+}
+
+.talents .talents-img {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0.2rem;
+}
+
+.talents .talents-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 0.2rem;
+}
+
+.talents .talents-img::before {
+  content: attr(data-title);
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  z-index: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.talents .talents-img img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.talents .talents-img:hover img {
+  transform: scale(1.2);
+}
+
+.talents .talents-img p {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.releases {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.releases .btn-slide {
+  width: 96vw;
+  height: 30rem;
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.releases .btn-slide span {
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--white);
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+}
+
+.releases .btn-slide span:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.releases h3 {
+  margin: 0 10rem;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.wrapper-releases {
+  display: flex;
+  width: 600vw;
+  height: 30rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.wrapper-releases .image-area {
+  background-color: red;
+  width: 100vw;
+  height: 100%;
+  position: relative;
+  left: 0;
+}
+
+.wrapper-releases .image-area img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.releases-border {
+  margin: 0 10rem;
+  border-bottom: 0.1rem solid var(--black);
+  margin-bottom: 4rem;
+}

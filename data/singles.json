@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Baldtwin",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "1",
+    "name": "Smile:)",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "2",
+    "name": "Beristirahat",
+    "imagePath": "",
+    "realease": "2018",
+    "artistId": "2",
+    "albumId": "2"
+  }
+]

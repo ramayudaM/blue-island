@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Bamboo",
+    "username": "bamboo",
+    "description": "Aidil Fikri stands as a dynamic force in modern rap and hip-hop, captivating audiences with his distinct approach to music. As the sole member of this project, he seamlessly blends storytelling lyrics rooted in urban life with energetic beats that resonate deeply with listeners. Each track he creates reflects his personal journey and keen observations of the world, making his music universally relatable across diverse audiences.\nUnder the creative umbrella of Blue Island, Aidil leverages this production house to amplify his artistic identity. Blue Island provides a platform for him to explore fresh elements of hip-hop, from innovative sound sampling to collaborations with talented producers. This synergy results in music that not only pleases the ear but also stirs emotions and thought.\nRenowned not just for his studio work, Aidil also commands the stage with unparalleled charisma. His live performances pull audiences into the rhythm and meaning of every lyric he delivers. Aidil Fikri represents the evolution of hip-hop in Indonesia—a seamless blend of tradition and innovation that continues to grow. Together with Blue Island, Aidil enriches the music landscape, embodying the voice of a new generation that is both relevant and inspiring.",
+    "images": [
+      {
+        "path": "image1.png",
+        "nameImage": "Bamboo"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "--",
+    "username": "#",
+    "description": "Sinister Six is a six-member band that masterfully fuses the heartfelt melodies of pop with the sophisticated charm of jazz, creating a sound that is both timeless and refreshingly modern. The group features Samuel (guitarist), Dimas (guitar filler), Putra (bassist), Natha (lead vocalist), Bagas (vocal filler), and Tomy (drummer), each contributing their unique talents to craft a rich and dynamic musical experience.\nTheir music exudes warmth and sophistication, moving effortlessly between soulful ballads and lively, upbeat tracks. Natha’s powerful lead vocals, harmonized by Bagas’ supporting voice, are perfectly framed by Samuel and Dimas’ intricate guitar melodies. Putra’s steady basslines provide a strong foundation, while Tomy’s energizing drumbeats bring everything to life. Together, they create an immersive soundscape that resonates deeply with audiences.\nBacked by Blue Island, Sinister Six has embraced their creative vision, producing music that captivates listeners and pushes genre boundaries. Their ability to blend pop and jazz influences results in songs that are both accessible and richly textured, appealing to fans across generations. Sinister Six is not just a band—they are storytellers and mood-setters, delivering performances that leave an unforgettable impression. With their passion, talent, and unique synergy, they are setting the stage for a lasting legacy in the music world.",
+    "images": [
+      {
+        "path": "image2.png",
+        "nameImage": "-"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Sinister Six",
+    "username": "sinister6",
+    "description": "Sinister Six is a six-member band that masterfully fuses the heartfelt melodies of pop with the sophisticated charm of jazz, creating a sound that is both timeless and refreshingly modern. The group features Samuel (guitarist), Dimas (guitar filler), Putra (bassist), Natha (lead vocalist), Bagas (vocal filler), and Tomy (drummer), each contributing their unique talents to craft a rich and dynamic musical experience.\nTheir music exudes warmth and sophistication, moving effortlessly between soulful ballads and lively, upbeat tracks. Natha’s powerful lead vocals, harmonized by Bagas’ supporting voice, are perfectly framed by Samuel and Dimas’ intricate guitar melodies. Putra’s steady basslines provide a strong foundation, while Tomy’s energizing drumbeats bring everything to life. Together, they create an immersive soundscape that resonates deeply with audiences.\nBacked by Blue Island, Sinister Six has embraced their creative vision, producing music that captivates listeners and pushes genre boundaries. Their ability to blend pop and jazz influences results in songs that are both accessible and richly textured, appealing to fans across generations. Sinister Six is not just a band—they are storytellers and mood-setters, delivering performances that leave an unforgettable impression. With their passion, talent, and unique synergy, they are setting the stage for a lasting legacy in the music world.",
+    "images": [
+      {
+        "path": "image3.png",
+        "nameImage": "Sinister Six"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Bleak Sonata",
+    "username": "bleak-sonata",
+    "description": "Bleak Sonata is a captivating duo that revives the tranquil essence of 90s classic music. Comprised of Elthon and Sidiq, this pair masterfully recreates the serene melodies of a beloved era, blending nostalgia with a timeless charm. Their music exudes a calming presence, inviting listeners to slow down and immerse themselves in the heartfelt simplicity of the past.\nElthon and Sidiq bring a unique synergy to their craft, with each performance delicately crafted to evoke memories and emotions. Their renditions honor the depth and warmth of 90s classics while weaving in their own distinctive style, creating a sound that feels both familiar and refreshingly new. Through their heartfelt delivery and intricate arrangements, Bleak Sonata turns every song into a moment of reflection and peace.\nUnder the nurturing guidance of Blue Island, Bleak Sonata has honed their ability to transport audiences to a time when music was a source of solace and connection. With their passion for the classics and their commitment to authenticity, Bleak Sonata doesn’t just play music—they create an experience that lingers in the heart long after the final note.",
+    "images": [
+      {
+        "path": "image4.png",
+        "nameImage": "Bleak Sonata"
+      }
+    ]
+  }
+]

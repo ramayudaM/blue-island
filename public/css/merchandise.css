@@ -1,0 +1,80 @@
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: var(--white);
+}
+
+header :is(.logo, .nav-links a) {
+  color: var(--black);
+}
+
+.border-navbar {
+  margin: 3rem 10%;
+  border-bottom: 0.1rem solid var(--black);
+  height: 2rem;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  width: 30rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  padding: 10px;
+}
+
+.product-info h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.description {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.description p {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.btn.tokopedia {
+  background-color: #1db954;
+  color: #fff;
+}
+
+.btn.shopee {
+  background-color: #ff5722;
+  color: #fff;
+}
