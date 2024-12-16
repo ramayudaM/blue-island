@@ -10,6 +10,10 @@ header :is(.logo, .nav-links a) {
   color: var(--black);
 }
 
+.nav-links a.business-nav {
+  font-weight: 900;
+}
+
 .border-navbar {
   margin: 3rem 10%;
   border-bottom: 0.1rem solid var(--black);

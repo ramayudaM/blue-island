@@ -23,19 +23,19 @@
 }
 
 .wrapper-images .image-area.img1 {
-  background-image: url('../images/image1.png');
+  background-image: url('../images/artists/bamboo.jpg');
 }
 
 .wrapper-images .image-area.img2 {
-  background-image: url('../images/image2.png');
+  background-image: url('../images/artists/gletser-collision.png');
 }
 
 .wrapper-images .image-area.img3 {
-  background-image: url('../images/image3.png');
+  background-image: url('../images/artists/sinister6.jpg');
 }
 
 .wrapper-images .image-area.img4 {
-  background-image: url('../images/image4.png');
+  background-image: url('../images/artists/bleak-sonata.png');
 }
 
 .motto {
@@ -176,7 +176,6 @@
 }
 
 .wrapper-releases .image-area {
-  background-color: red;
   width: 100vw;
   height: 100%;
   position: relative;
@@ -185,7 +184,7 @@
 
 .wrapper-releases .image-area img {
   object-fit: cover;
-  object-position: center;
+  object-position: top;
   width: 100%;
   height: 100%;
 }
@@ -194,4 +193,36 @@
   margin: 0 10rem;
   border-bottom: 0.1rem solid var(--black);
   margin-bottom: 4rem;
+}
+
+.merch {
+  margin: 0 10rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.merch h3 {
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.merch .merch-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 1.2rem;
+}
+
+.merch .merch-img {
+  width: 100%;
+  height: 40rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0.2rem;
+}
+
+.merch .merch-img img {
+  object-fit: cover;
 }

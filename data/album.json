@@ -2,77 +2,77 @@
   {
     "id": "1",
     "name": "CoR4L pEN1NSUL4",
-    "imagePath": "",
+    "imagePath": "coral-peninsula.jpg",
     "realease": "2015",
     "artistId": "1"
   },
   {
-    "id": "1",
+    "id": "2",
     "name": "Ber -ingin",
-    "imagePath": "",
+    "imagePath": "beringin.jpg",
     "realease": "2017",
     "artistId": "1"
-  },
-  {
-    "id": "1",
-    "name": "Bl4ck Gimballs",
-    "imagePath": "",
-    "realease": "2019",
-    "artistId": "1"
-  },
-  {
-    "id": "2",
-    "name": "Percakapan",
-    "imagePath": "",
-    "realease": "2017",
-    "artistId": "2"
-  },
-  {
-    "id": "2",
-    "name": "Layar Sentuh",
-    "imagePath": "",
-    "realease": "2019",
-    "artistId": "2"
   },
   {
     "id": "3",
+    "name": "Bl4ck Gimballs",
+    "imagePath": "black-gimbals.jpg",
+    "realease": "2019",
+    "artistId": "1"
+  },
+  {
+    "id": "4",
+    "name": "Percakapan",
+    "imagePath": "percakapan.jpg",
+    "realease": "2017",
+    "artistId": "2"
+  },
+  {
+    "id": "5",
+    "name": "Layar Sentuh",
+    "imagePath": "layar-sentuh.jpg",
+    "realease": "2019",
+    "artistId": "2"
+  },
+  {
+    "id": "6",
     "name": "Six Hours to Midnight",
-    "imagePath": "",
+    "imagePath": "six-hours-to-midnight.jpg",
     "realease": "2009",
     "artistId": "3"
   },
   {
-    "id": "3",
+    "id": "7",
     "name": "6ixsense",
-    "imagePath": "",
+    "imagePath": "6ixsense.jpg",
     "realease": "2013",
     "artistId": "3"
   },
   {
-    "id": "3",
+    "id": "8",
     "name": "666",
-    "imagePath": "",
+    "imagePath": "666.jpg",
     "realease": "2014",
     "artistId": "3"
   },
   {
-    "id": "4",
+    "id": "9",
     "name": "La Maritza",
-    "imagePath": "",
+    "imagePath": "la-maritza.jpg",
     "realease": "1987",
     "artistId": "4"
   },
   {
-    "id": "4",
+    "id": "10",
     "name": "Red Right Hands",
-    "imagePath": "",
+    "imagePath": "red-right-hands.jpg",
     "realease": "1990",
     "artistId": "4"
   },
   {
-    "id": "4",
+    "id": "11",
     "name": "World Impact",
-    "imagePath": "",
+    "imagePath": "world-impact.jpg",
     "realease": "1995",
     "artistId": "4"
   }

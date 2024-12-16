@@ -14,30 +14,30 @@
 <article class="talents">
   <h3>Talents</h3>
   <section class="talents-wrap">
-    <% console.log(artists) %> <% artists.forEach(element => { %>
+    <% artists.forEach(element => { %>
     <a href="/talent/<%= element.username %>">
       <div class="talents-img" data-title="<%=element.name %>">
-        <img src="/images/<%= element.images[0].path %>" alt="<%= element.images[0].nameImage %>" />
-      </div>
+        <img src="/images/artists/<%= element.images[0].path %>" alt="<%= element.images[0].nameImage %>" />
+      </div>  
     </a>
     <% }) %>
   </section>
-</article>
+</article> 
 
 <section class="releases">
   <h3>New Releases</h3>
   <div class="wrapper-releases">
     <div class="image-area">
-      <img src="/images/image1.png" alt="">
+      <a href=""><img src="/images/releases/release1.png" alt=""></a>
     </div>
     <div class="image-area">
-      <img src="/images/image2.png" alt="">
+      <a href=""><img src="/images/releases/release2.png" alt=""></a>
     </div>
     <div class="image-area">
-      <img src="/images/image3.png" alt="">
+      <a href=""><img src="/images/releases/release3.png" alt=""></a>
     </div>
     <div class="image-area">
-      <img src="/images/image4.png" alt="">
+      <a href=""><img src="/images/releases/release4.png" alt=""></a>
     </div>
   </div>
   
@@ -48,3 +48,14 @@
 </section>
 
 <div class="releases-border"></div>
+
+<article class="merch">
+  <h3>Just Smile</h3>
+  <section class="merch-wrap">
+    <a href="/jus">
+      <div class="merch-img">
+        <img src="/images/merchandise/product3.png" alt="Product Merch" />
+      </div>  
+    </a>
+  </section>
+</article> 

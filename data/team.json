@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Adwika Farsha Ardhan",
+    "position": "Artist & Repertoire Executive",
+    "imagePath": "adwika-farsha.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Elthon Jhon Kevin",
+    "position": "Content Executive",
+    "imagePath": "elthon-jhon.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Ramayuda Mahardika",
+    "position": "Manager of Gletser Collision",
+    "imagePath": "ramayuda.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Pangihutan Syahputra Purba",
+    "position": "Manager of Sinister Six",
+    "imagePath": "pangihutan-syahputra.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Bagas Pangestu",
+    "position": "Artist & Repertoire Lead",
+    "imagePath": "bagas-pangestu.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Tomy Arya Fiosa",
+    "position": "Graphic Designer",
+    "imagePath": "tomy-arya.jpg"
+  },
+  {
+    "id": "7",
+    "name": "M. Sidiq Firdaus",
+    "position": "Video Editor",
+    "imagePath": "sidiq-firdaus.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Samuel Linggom Deo Pasaribu",
+    "position": "Manager of Blue Island",
+    "imagePath": "samuel-linggom.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Dimas Eka Putra Santoso",
+    "position": "Consumer Product Executive",
+    "imagePath": "dimas-eka.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Natha Raditya Rauf",
+    "position": "Partnership & Commercial",
+    "imagePath": "natha-raditya.jpg"
+  },
+  {
+    "id": "11",
+    "name": "M. Aidil Fikri",
+    "position": "Manager of Bamboo",
+    "imagePath": "aidil-fikri.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Radhitya Agrayasa Rhalin",
+    "position": "VP of Operations, Partnership & Commercial Head",
+    "imagePath": "radhitya-agrayasa.jpg"
+  }
+]

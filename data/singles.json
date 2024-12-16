@@ -8,7 +8,7 @@
     "albumId": "1"
   },
   {
-    "id": "1",
+    "id": "2",
     "name": "Smile:)",
     "imagePath": "",
     "realease": "2022",
@@ -16,11 +16,851 @@
     "albumId": "1"
   },
   {
-    "id": "2",
-    "name": "Beristirahat",
+    "id": "3",
+    "name": "City Nights",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "4",
+    "name": "Eternal Loop",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "5",
+    "name": "Glass Horizon",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "6",
+    "name": "Parallel Lives",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "7",
+    "name": "Solitary Symphony",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "8",
+    "name": "Oceanic",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "9",
+    "name": "Cosmic Drift",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "10",
+    "name": "Golden Threads",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "11",
+    "name": "Falling Stars",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "12",
+    "name": "Infinite Echoes",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "13",
+    "name": "Shadow Dancer",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "14",
+    "name": "Awakening Dawn",
+    "imagePath": "",
+    "realease": "2022",
+    "artistId": "1",
+    "albumId": "1"
+  },
+  {
+    "id": "15",
+    "name": "Gravity's Pull",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "16",
+    "name": "Broken Symmetry",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "17",
+    "name": "Echo Chamber",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "18",
+    "name": "Celestial Dawn",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "19",
+    "name": "Fragmented Worlds",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "20",
+    "name": "Temporal Shift",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "21",
+    "name": "Luminous Fragments",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "22",
+    "name": "Silent Mechanism",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "23",
+    "name": "Refraction",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "24",
+    "name": "Shattered Prism",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "25",
+    "name": "Falling Through Time",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "26",
+    "name": "Eclipse Core",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "27",
+    "name": "Nebula's Edge",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "28",
+    "name": "Resonance Effect",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "1",
+    "albumId": "3"
+  },
+  {
+    "id": "29",
+    "name": "Menunggu Senja",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "30",
+    "name": "Rindu Hening",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "31",
+    "name": "Berjalan Sendiri",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "32",
+    "name": "Mimpi Terhenti",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "33",
+    "name": "Langkah Terakhir",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "34",
+    "name": "Harapan Kosong",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "35",
+    "name": "Dalam Hening",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "36",
+    "name": "Kisah yang Hilang",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "37",
+    "name": "Tak Terganti",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "38",
+    "name": "Bayangan Luka",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "39",
+    "name": "Nada Sepi",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "40",
+    "name": "Jejak yang Lenyap",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "41",
+    "name": "Saat Kau Pergi",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "42",
+    "name": "Malam Tak Berujung",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "1",
+    "albumId": "2"
+  },
+  {
+    "id": "43",
+    "name": "Sebuah Pertemuan",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "2",
+    "albumId": "4"
+  },
+  {
+    "id": "44",
+    "name": "Rahasia Waktu",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "2",
+    "albumId": "4"
+  },
+  {
+    "id": "45",
+    "name": "Dari Jarak",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "2",
+    "albumId": "4"
+  },
+  {
+    "id": "46",
+    "name": "Senandung Rindu",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "2",
+    "albumId": "4"
+  },
+  {
+    "id": "47",
+    "name": "Bayangmu",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "2",
+    "albumId": "4"
+  },
+  {
+    "id": "48",
+    "name": "Bisik Dalam Hati",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "2",
+    "albumId": "4"
+  },
+  {
+    "id": "49",
+    "name": "Hening Malam",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "2",
+    "albumId": "4"
+  },
+  {
+    "id": "50",
+    "name": "Cerita yang Pergi",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "2",
+    "albumId": "4"
+  },
+  {
+    "id": "51",
+    "name": "Detik yang Hilang",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "2",
+    "albumId": "4"
+  },
+  {
+    "id": "52",
+    "name": "Langit Berbisik",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "2",
+    "albumId": "4"
+  },
+  {
+    "id": "53",
+    "name": "Jejak Cinta",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "2",
+    "albumId": "4"
+  },
+  {
+    "id": "54",
+    "name": "Percakapan Terakhir",
+    "imagePath": "",
+    "realease": "2017",
+    "artistId": "2",
+    "albumId": "4"
+  },
+  {
+    "id": "55",
+    "name": "Klik Pertama",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "2",
+    "albumId": "5"
+  },
+  {
+    "id": "56",
+    "name": "Sinyal Cinta",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "2",
+    "albumId": "5"
+  },
+  {
+    "id": "57",
+    "name": "Sentuhan Hati",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "2",
+    "albumId": "5"
+  },
+  {
+    "id": "58",
+    "name": "Swipe ke Kanan",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "2",
+    "albumId": "5"
+  },
+  {
+    "id": "59",
+    "name": "Bayangan Layar",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "2",
+    "albumId": "5"
+  },
+  {
+    "id": "60",
+    "name": "Wajah Digital",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "2",
+    "albumId": "5"
+  },
+  {
+    "id": "61",
+    "name": "Pencarian Tak Berujung",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "2",
+    "albumId": "5"
+  },
+  {
+    "id": "62",
+    "name": "Goresan Jari",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "2",
+    "albumId": "5"
+  },
+  {
+    "id": "63",
+    "name": "Di Balik Layar",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "2",
+    "albumId": "5"
+  },
+  {
+    "id": "64",
+    "name": "Notifikasi Rindu",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "2",
+    "albumId": "5"
+  },
+  {
+    "id": "65",
+    "name": "Pengingat Malam",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "2",
+    "albumId": "5"
+  },
+  {
+    "id": "66",
+    "name": "Hilang Sinyal",
+    "imagePath": "",
+    "realease": "2019",
+    "artistId": "2",
+    "albumId": "5"
+  },
+  {
+    "id": "67",
+    "name": "The Final Hour",
+    "imagePath": "",
+    "realease": "2009",
+    "artistId": "3",
+    "albumId": "6"
+  },
+  {
+    "id": "68",
+    "name": "Shadows at Dusk",
+    "imagePath": "",
+    "realease": "2009",
+    "artistId": "3",
+    "albumId": "6"
+  },
+  {
+    "id": "69",
+    "name": "Midnight Run",
+    "imagePath": "",
+    "realease": "2009",
+    "artistId": "3",
+    "albumId": "6"
+  },
+  {
+    "id": "70",
+    "name": "Whispers in the Dark",
+    "imagePath": "",
+    "realease": "2009",
+    "artistId": "3",
+    "albumId": "6"
+  },
+  {
+    "id": "71",
+    "name": "Before the Clock Strikes",
+    "imagePath": "",
+    "realease": "2009",
+    "artistId": "3",
+    "albumId": "6"
+  },
+  {
+    "id": "72",
+    "name": "Nightfall Symphony",
+    "imagePath": "",
+    "realease": "2009",
+    "artistId": "3",
+    "albumId": "6"
+  },
+  {
+    "id": "73",
+    "name": "Eternal Twilight",
+    "imagePath": "",
+    "realease": "2009",
+    "artistId": "3",
+    "albumId": "6"
+  },
+  {
+    "id": "74",
+    "name": "Six Hours to Midnight",
+    "imagePath": "",
+    "realease": "2009",
+    "artistId": "3",
+    "albumId": "6"
+  },
+  {
+    "id": "75",
+    "name": "Vision Beyond",
+    "imagePath": "",
+    "realease": "2013",
+    "artistId": "3",
+    "albumId": "7"
+  },
+  {
+    "id": "76",
+    "name": "Hidden Pulse",
+    "imagePath": "",
+    "realease": "2013",
+    "artistId": "3",
+    "albumId": "7"
+  },
+  {
+    "id": "77",
+    "name": "Echoes of the Unknown",
+    "imagePath": "",
+    "realease": "2013",
+    "artistId": "3",
+    "albumId": "7"
+  },
+  {
+    "id": "78",
+    "name": "Sensory Overload",
+    "imagePath": "",
+    "realease": "2013",
+    "artistId": "3",
+    "albumId": "7"
+  },
+  {
+    "id": "79",
+    "name": "Perceptive Mind",
+    "imagePath": "",
+    "realease": "2013",
+    "artistId": "3",
+    "albumId": "7"
+  },
+  {
+    "id": "80",
+    "name": "Illusions and Reality",
+    "imagePath": "",
+    "realease": "2013",
+    "artistId": "3",
+    "albumId": "7"
+  },
+  {
+    "id": "81",
+    "name": "Subtle Signals",
+    "imagePath": "",
+    "realease": "2013",
+    "artistId": "3",
+    "albumId": "7"
+  },
+  {
+    "id": "82",
+    "name": "6ixsense",
+    "imagePath": "",
+    "realease": "2013",
+    "artistId": "3",
+    "albumId": "7"
+  },
+  {
+    "id": "83",
+    "name": "Mark of the Beast",
+    "imagePath": "",
+    "realease": "2014",
+    "artistId": "3",
+    "albumId": "8"
+  },
+  {
+    "id": "84",
+    "name": "Infernal Journey",
+    "imagePath": "",
+    "realease": "2014",
+    "artistId": "3",
+    "albumId": "8"
+  },
+  {
+    "id": "85",
+    "name": "The Abyss",
+    "imagePath": "",
+    "realease": "2014",
+    "artistId": "3",
+    "albumId": "8"
+  },
+  {
+    "id": "86",
+    "name": "Hellfire Symphony",
+    "imagePath": "",
+    "realease": "2014",
+    "artistId": "3",
+    "albumId": "8"
+  },
+  {
+    "id": "87",
+    "name": "Fallen Angels",
+    "imagePath": "",
+    "realease": "2014",
+    "artistId": "3",
+    "albumId": "8"
+  },
+  {
+    "id": "88",
+    "name": "The Devil's Call",
+    "imagePath": "",
+    "realease": "2014",
+    "artistId": "3",
+    "albumId": "8"
+  },
+  {
+    "id": "89",
+    "name": "Underworld Echoes",
+    "imagePath": "",
+    "realease": "2014",
+    "artistId": "3",
+    "albumId": "8"
+  },
+  {
+    "id": "90",
+    "name": "666",
+    "imagePath": "",
+    "realease": "2014",
+    "artistId": "3",
+    "albumId": "8"
+  },
+  {
+    "id": "91",
+    "name": "Lost in the Labyrinth",
+    "imagePath": "",
+    "realease": "2016",
+    "artistId": "4",
+    "albumId": "9"
+  },
+  {
+    "id": "92",
+    "name": "Echoes of Eternity",
+    "imagePath": "",
+    "realease": "2016",
+    "artistId": "4",
+    "albumId": "9"
+  },
+  {
+    "id": "93",
+    "name": "The Endless Spiral",
+    "imagePath": "",
+    "realease": "2016",
+    "artistId": "4",
+    "albumId": "9"
+  },
+  {
+    "id": "94",
+    "name": "Paths Unseen",
+    "imagePath": "",
+    "realease": "2016",
+    "artistId": "4",
+    "albumId": "9"
+  },
+  {
+    "id": "95",
+    "name": "Through the Mirrors",
+    "imagePath": "",
+    "realease": "2016",
+    "artistId": "4",
+    "albumId": "9"
+  },
+  {
+    "id": "96",
+    "name": "The Eternal Maze",
+    "imagePath": "",
+    "realease": "2016",
+    "artistId": "4",
+    "albumId": "9"
+  },
+  {
+    "id": "97",
+    "name": "Threads of Emotion",
     "imagePath": "",
     "realease": "2018",
-    "artistId": "2",
-    "albumId": "2"
+    "artistId": "4",
+    "albumId": "10"
+  },
+  {
+    "id": "98",
+    "name": "Melody of Memories",
+    "imagePath": "",
+    "realease": "2018",
+    "artistId": "4",
+    "albumId": "10"
+  },
+  {
+    "id": "99",
+    "name": "Pulse of the Heart",
+    "imagePath": "",
+    "realease": "2018",
+    "artistId": "4",
+    "albumId": "10"
+  },
+  {
+    "id": "100",
+    "name": "Echoing Love",
+    "imagePath": "",
+    "realease": "2018",
+    "artistId": "4",
+    "albumId": "10"
+  },
+  {
+    "id": "101",
+    "name": "Symphony of Us",
+    "imagePath": "",
+    "realease": "2018",
+    "artistId": "4",
+    "albumId": "10"
+  },
+  {
+    "id": "102",
+    "name": "Heartstrings",
+    "imagePath": "",
+    "realease": "2018",
+    "artistId": "4",
+    "albumId": "10"
+  },
+  {
+    "id": "103",
+    "name": "Ashes to Flames",
+    "imagePath": "",
+    "realease": "2021",
+    "artistId": "4",
+    "albumId": "11"
+  },
+  {
+    "id": "104",
+    "name": "The First Flight",
+    "imagePath": "",
+    "realease": "2021",
+    "artistId": "4",
+    "albumId": "11"
+  },
+  {
+    "id": "105",
+    "name": "Rebirth from Ruins",
+    "imagePath": "",
+    "realease": "2021",
+    "artistId": "4",
+    "albumId": "11"
+  },
+  {
+    "id": "106",
+    "name": "Embers of Hope",
+    "imagePath": "",
+    "realease": "2021",
+    "artistId": "4",
+    "albumId": "11"
+  },
+  {
+    "id": "107",
+    "name": "Flames of Renewal",
+    "imagePath": "",
+    "realease": "2021",
+    "artistId": "4",
+    "albumId": "11"
+  },
+  {
+    "id": "108",
+    "name": "Rise of the Phoenix",
+    "imagePath": "",
+    "realease": "2021",
+    "artistId": "4",
+    "albumId": "11"
   }
 ]

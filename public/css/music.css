@@ -1,0 +1,199 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: var(--white);
+}
+
+header :is(.logo, .nav-links a) {
+  color: var(--black);
+}
+
+.nav-links a.music-nav {
+  font-weight: 900;
+}
+
+.border-navbar {
+  margin: 3rem 10%;
+  border-bottom: 0.1rem solid var(--black);
+  height: 2rem;
+  margin-bottom: 0;
+}
+
+:is(.talents, .catalogues) {
+  padding: 4rem 0;
+  padding-top: 2rem;
+  margin: 0 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-bottom: 0.1rem solid var(--black);
+}
+
+:is(.talents, .catalogues) h3 {
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.talents .talents-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 1.2rem;
+}
+
+.talents .talents-img {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0.2rem;
+}
+
+.talents .talents-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 0.2rem;
+}
+
+.talents .talents-img::before {
+  content: attr(data-title);
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  z-index: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.talents .talents-img img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.talents .talents-img:hover img {
+  transform: scale(1.2);
+}
+
+.talents .talents-img p {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.catalogues {
+  border-bottom: none;
+}
+
+.catalogues-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalogues-header form {
+  display: flex;
+  gap: 2rem;
+}
+
+.catalogues-header form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.catalogues-header form > div label {
+  font-size: 0.8rem;
+}
+
+.catalogues-wrap {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+.catalogues-wrap a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.catalogues-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.catalogues-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.catalogues-wrap .artist-name {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.catalogues-pagination {
+  margin-top: 2rem;
+}
+
+.catalogues-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.catalogues-pagination a {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.2rem;
+}
+
+.catalogues-pagination :is(a:first-child, a:last-child) {
+  font-size: 2rem;
+  border: none;
+}
+
+.catalogues-pagination :is(a:first-child, a:last-child) span {
+  font-size: 2rem;
+}
+
+.catalogues-pagination a.active {
+  color: var(--white);
+  border: none;
+  background-color: #007aff;
+  border-radius: 0.2rem;
+}
+
+.catalogues-pagination a.disable {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: default;
+}

@@ -1,0 +1,80 @@
+<div class="border-navbar"></div>
+
+<article class="talents">
+  <h3>Talents</h3>
+  <section class="talents-wrap">
+    <% artists.forEach(element => { %>
+    <a href="/talent/<%= element.username %>">
+      <div class="talents-img" data-title="<%=element.name %>">
+        <img src="/images/artists/<%= element.images[0].path %>" alt="<%= element.images[0].nameImage %>" />
+      </div>  
+    </a>
+    <% }) %>
+  </section>
+</article> 
+
+<article class="catalogues">
+  <div class="catalogues-header">
+    <h3>Catalogues</h3>
+
+    <form method="get" action="/music" class="filter-form">
+      <div class="artist-filter">
+        <label for="artistId">Filter by Artist:</label>
+        <select name="artistId" id="artistId" onchange="this.form.submit()">
+          <option value="">All Artists</option>
+          <% artists.forEach(artist => { %>
+          <option value="<%= artist.id %>" <%= artistId === artist.id ? 'selected' : '' %>>
+            <%= artist.name %>
+          </option>
+          <% }) %>
+        </select>
+      </div>
+    
+      <div class="sort-filter">
+        <label for="sort">Sort by:</label>
+        <select name="sort" id="sort" onchange="this.form.submit()">
+          <option value="newest" <%= sort === 'newest' ? 'selected' : '' %>>Newest</option>
+          <option value="oldest" <%= sort === 'oldest' ? 'selected' : '' %>>Oldest</option>
+          <option value="desc" <%= sort === 'desc' ? 'selected' : '' %>>Name (Z-A)</option>
+          <option value="asc" <%= sort === 'asc' ? 'selected' : '' %>>Name (A-Z)</option>
+        </select>
+      </div>
+    </form>
+  </div>
+  <section class="catalogues-wrap">
+    <% singles.forEach(element => { %>
+      <a href="#">
+        <div class="catalogues-img">
+          <% if (element.imagePath) { %>
+            <img src="/images/singles/<%=element.imagePath%>" alt="<%= element.name %>">
+          <% } else { %>
+            <% const albumImage = albums.filter((data) => data.id === element.albumId); %>
+            <img src="/images/albums/<%=albumImage[0].imagePath%>" alt="<%= element.name %>">
+          <% } %>
+        </div>
+  
+        <span class="music-title"><%= element.name %></span>
+        <span class="artist-name"><%= element.artistName %></span>
+        <span class="release"><%= element.realease %></span>
+      </a>
+    <% }) %>
+  </section>
+
+  <section class="catalogues-pagination">
+    <% if (previous) { %>
+      <a href="/music?page=<%= previous.page %>&artistId=<%= artistId %>&sort=<%= sort %>" class="prev"><span>&laquo;</span></a>
+    <% } else { %>
+      <a href="#" class="prev disable"><span>&laquo;</span></a>
+    <% } %> 
+
+    <% for( let i = 0; i < totalPage; i++ ) { %>
+      <a href="/music?page=<%= i + 1 %>&artistId=<%= artistId %>&sort=<%= sort %>" class="<%= currentPage == i + 1 ? 'active' : '' %>"><span><%= i + 1 %></span></a>
+    <% } %>
+    
+    <% if (next) { %>
+      <a href="/music?page=<%= next.page %>&artistId=<%= artistId %>&sort=<%= sort %>" class="next"><span>&raquo;</span></a>
+    <% } else { %>
+      <a href="#" class="next disable"><span>&raquo;</span></a>
+    <% } %> 
+  </section>
+</article> 

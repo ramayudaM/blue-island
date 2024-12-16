@@ -1,0 +1,76 @@
+<section class="main-images">
+  <div class="wrapper-images">
+    <div class="image-area">
+      <img src="/images/artists/<%=artist.images[0].path%>" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="description">
+  <p><%=artist.description%></p>
+</section>
+
+<section class="music-wrap">
+  <h2>Music</h2>
+
+  <iframe style="border-radius:12px" src="<%=artist.spotify%>" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</section>
+
+<section class="press-wrap">
+  <h2>Press Kit</h2>
+
+  <div class="press-area">
+    <% artist.images.forEach(element => { %>
+      <div class="press-img">
+        <img src="/images/artists/<%=element.path%>" alt="<%= element.nameImage %>">
+      </div>
+    <% }) %>
+  </div>
+
+    
+  <div class="btn-slide">
+    <span class="left-slide">&lt;</span>
+    <span class="right-slide">&gt;</span>
+  </div>
+
+  <a href="/press-kit/<%=artist.username%>.zip" download>↘ Download Press Kit</a>
+</section>
+
+<section class="album-wrap">
+  <h2>EP & Album</h2>
+
+  <section class="album-area">
+    <% album.forEach(element => { %>
+      <a href="#">
+        <div class="album-img">
+          <img src="/images/albums/<%=element.imagePath%>" alt="<%= element.name %>">
+        </div>
+  
+        <span class="name"><%= element.name %></span>
+        <span class="realease"><%= element.realease %></span>
+      </a>
+    <% }) %>
+  </section>
+</section>
+
+<section class="single-wrap">
+  <h2>Singles</h2>
+
+  <section class="single-area">
+    <% single.forEach(element => { %>
+      <a href="#">
+        <div class="album-img">
+          <% if (element.imagePath) { %>
+            <img src="/images/singles/<%=element.imagePath%>" alt="<%= element.name %>">
+          <% } else { %>
+            <% const albumImage = album.filter((data) => data.id === element.albumId); %>
+            <img src="/images/albums/<%=albumImage[0].imagePath%>" alt="<%= element.name %>">
+          <% } %>
+        </div>
+  
+        <span class="name"><%= element.name %></span>
+        <span class="realease"><%= element.realease %></span>
+      </a>
+    <% }) %>
+  </section>
+</section>

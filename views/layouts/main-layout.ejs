@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= title %></title>
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/<%=css%>.css" />
+    <link rel="stylesheet" href="/css/<%=interactive%>.css" />
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div class="logo"><a href="/">BLUE ISLAND</a></div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#music">Music</a></li>
-          <li><a href="/business">Business</a></li>
-          <li><a href="/jus">Just Smile</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/about" class="about-nav">About</a></li>
+          <li><a href="/music" class="music-nav">Music</a></li>
+          <li><a href="/business" class="business-nav">Business</a></li>
+          <li><a href="/jus" class="jus-nav">Just Smile</a></li>
+          <li><a href="/contact" class="contact-nav">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -50,8 +50,8 @@
 
           <div class="footer-policy">
             <ul>
-              <li><a href="#">Terms & Condition</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="/about">Terms & Condition</a></li>
+              <li><a href="/about">Privacy Policy</a></li>
               <li>Copyright © 2024 Blue Island</li>
             </ul>
           </div>
@@ -60,5 +60,14 @@
     </footer>
 
     <script src="/js/script.js"></script>
+    <% if (interactive == 'home') { %>
+    <script src="/js/home.js"></script>
+    <% } else if (interactive == 'music') { %>
+      <script src="/js/music.js"></script>
+    <% } else if (interactive == 'about') { %>
+      <script src="/js/about.js"></script>
+    <% } else if (interactive == 'talent') { %>
+      <script src="/js/talent.js"></script>
+    <% } %>
   </body>
 </html>

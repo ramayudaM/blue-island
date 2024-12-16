@@ -1,0 +1,151 @@
+<div class="border-navbar"></div>
+
+<main class="about">
+  <section class="about-wrap">
+    <h2>About</h2>
+
+    <div class="about-area">
+      <div class="about-img">
+        <img src="/images/about/konser.jpg" alt="" />
+      </div>
+      <p>
+        Blue Island is a hybrid music-entertainment company, aiming to bring Indonesia’s future talents forward. Founded in 1970, Blue Island has seen
+        an exponential growth as a business by harnessing the two most powerful mediums of our age: technology and storytelling with a fan-focused
+        approach to grow the audience and develop a deep relevance for its artists. Today they represent Indonesia’s young talents – from Gletser
+        Collision, Bleak Sonata, Bamboo, to Sinister Six. With the latest addition being the virtual music band G/A/T/E. Blue Island’s independent
+        business pillars currently being called Blue Island Group (BIG) are divided into SEG Labels for its record labels and music production, SEG+
+        for producing creative contents, products, live events tp all commercialization across IPs, and later SEG platform to cater community
+        fanbases.
+      </p>
+    </div>
+  </section>
+
+  <section class="azure-wrap">
+    <h2>Azure Compass Blue Island</h2>
+
+    <div class="azure-area">
+      <p>The Azure Compass is our holistic 360-degree approach to exploring and thriving in the dynamic currents of the creative industry.</p>
+      <p>
+        Inspired by the essence of a serene island, it places creators at the heart, steering through 8 unique, flowing segments that represent the
+        pillars of our journey. Each segment mirrors the rhythm of waves, blending innovation, artistry, and sustainability into an ever-evolving
+        symphony
+      </p>
+
+      <div class="azure-img">
+        <img src="/images/about/azure.jpg" alt="" />
+      </div>
+
+      <div class="menu">
+        <div class="menu-item">
+          <div class="menu-header">
+            <span class="menu-deskripsi">Artist & Repertoire</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="menu-content">
+            <p class="deskripsi">Recruit artists and oversee their artistic development. Also liaise artists and record label.</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-header">
+            <span class="menu-deskripsi">Talent Management</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="menu-content">
+            <p class="deskripsi">Responsible for artists’ business managerial enquiries alongside its administrative works.</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-header">
+            <span class="menu-deskripsi">Community</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="menu-content">
+            <p class="deskripsi">Acquire, grow and foster communities related to the artist or Blue Island as a whole.</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-header">
+            <span class="menu-deskripsi">Live and Shine</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="menu-content">
+            <p class="deskripsi">Organize and manage offline productions including concerts, exhibitions and other events.</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-header">
+            <span class="menu-deskripsi">Partnership</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="menu-content">
+            <p class="deskripsi">IP commercialization and business expansion through cooperation and collaboration.</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-header">
+            <span class="menu-deskripsi">Blue Island Studio</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="menu-content">
+            <p class="deskripsi">
+              Creative content studio consists of two divisions; Sun Eater Pictures (for Audiovisual and Film productions) and Sun Eater Content
+              (Social Media Contents)
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-header">
+            <span class="menu-deskripsi">Blue Island IP</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="menu-content">
+            <p class="deskripsi">Explore and strategize new/secondary IP concepts such such as characters, books, toys, etc.</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-header">
+            <span class="menu-deskripsi">Media Relations</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="menu-content">
+            <p class="deskripsi">Connect and build relationships with various media for publication and promotion purposes.</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-header">
+            <span class="menu-deskripsi">Just Smile</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="menu-content">
+            <p class="deskripsi">Merchandising service.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team-wrap">
+    <h2>Our Team</h2>
+
+    <section class="team-area">
+      <% team.forEach(element => { %>
+        <a href="#">
+          <div class="team-img">
+            <img src="/images/team/<%= element.imagePath %>" alt="<%= element.name %>">
+          </div>
+    
+          <span class="name"><%= element.name %></span>
+          <span class="position"><%= element.position %></span>
+        </a>
+      <% }) %>
+    </section>
+  </section>
+</main>

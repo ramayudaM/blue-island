@@ -1,0 +1,152 @@
+.main-images {
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrapper-images {
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+}
+
+.wrapper-images .image-area {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper-images .image-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.description {
+  margin: 0 10%;
+  padding: 3rem 0;
+  border-bottom: 0.1rem solid var(--black);
+}
+
+.description p {
+  line-height: 1.8;
+  white-space: pre-line;
+}
+
+:is(.album-wrap, .single-wrap, .music-wrap, .press-wrap) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 10%;
+  padding: 2rem 0;
+  border-bottom: 0.1rem solid var(--black);
+  overflow: hidden;
+}
+
+.single-wrap {
+  border-bottom: none;
+}
+
+:is(.album-wrap, .single-wrap, .music-wrap, .press-wrap) h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.album-area,
+.single-area {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+:is(.album-area, .single-area) a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+:is(.album-img, .single-img) {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+:is(.album-img, .single-img) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+:is(.album-area, .single-area) .name {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+:is(.album-area, .single-area) .realease {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 0.2rem;
+}
+
+.press-wrap .btn-slide {
+  width: 96%;
+  height: 30rem;
+  position: absolute;
+  bottom: 6.1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.press-wrap .btn-slide span {
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--white);
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+}
+
+.press-wrap .btn-slide span:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.press-area {
+  display: flex;
+  width: 600%;
+  height: 30rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.press-area .press-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0;
+}
+
+.press-area .press-img img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.press-wrap > a {
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+}

@@ -1,0 +1,118 @@
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: var(--white);
+}
+
+header :is(.logo, .nav-links a) {
+  color: var(--black);
+}
+
+.nav-links a.contact-nav {
+  font-weight: 900;
+}
+
+.border-navbar {
+  margin: 3rem 10%;
+  border-bottom: 0.1rem solid var(--black);
+  height: 2rem;
+  margin-bottom: 0;
+}
+
+main.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+main.contact p {
+  line-height: 1.8;
+}
+
+.contact-wrap a {
+  text-decoration: underline;
+}
+
+:is(.office-wrap, .contact-wrap) {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+  padding: 2rem 0;
+  gap: 2rem;
+  border-bottom: 0.1rem solid var(--black);
+}
+
+:is(.office-wrap, .contact-wrap) > div {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+:is(.office-wrap, .contact-wrap) > div h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.contact-wrap {
+  border-bottom: none;
+  padding: 0;
+  margin-bottom: 4rem;
+}
+
+.office-wrap > div a {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.contact-area {
+  display: grid;
+  grid-template-areas:
+    'contact partner'
+    'booking booking';
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  column-gap: 4rem;
+  row-gap: 2rem;
+}
+
+.contact-content {
+  grid-area: contact;
+}
+
+.partnership-content {
+  grid-area: partner;
+}
+
+.contact-area > h2 {
+  grid-area: booking;
+}
+
+:is(.contact-content, .partnership-content) {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+:is(.booking-area, .ar-area, .partnership-area, .careers-area, .partnership-area) {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.booking-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.booking-contact span {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.contact-area .book-content a {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
